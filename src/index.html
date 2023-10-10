@@ -6,8 +6,57 @@
   <link href="/src/output.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <header class="flex justify-between border-2 border-solid">
+        <!-- border-2 border-solid // border-dashed //border-dotted //boeder-double -->
+        <!-- logo -->
+        <img src="#" alt="">
+        <nav class="flex flex-col space-x-6  text-xl  md:flex-row ">
+            <a href="#" class="p-3 pt-2">Главная</a>
+            <a href="#" class="p-3 pt-2">Продукты</a>
+            <a href="#" class="p-3 pt-2">О нас</a>
+            <a href="#" class="p-3 pt-2">Контакты</a>
+            <button class="md:block p-3 pt-2 text-white bg-myFioletoviy rounded-full baseline hover:scale-x-110 scale-y-110 transition-transform">Зарегистрироваться</button>
+        </nav>
+    </header>
+
+    <!-- hero -->
+    <section id="hero">
+        <!-- Flex container -->
+        <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row ">
+          <!-- Left item -->
+          <div class="flex flex-col mb-32 space-y-12 md:w-1/2 ">
+            <h1 class="md:text-7xl font-bold sm:text-5xl">Mercury - напечатаем всё что угодно </h1>
+            <p class="text-xl text-gray-400 ">Настало время окунуться в мир где все покрыто красками и словами который
+              передает твои мысли</p>
+            <!-- Get started -->
+            <div class="flex justify-center md:justify-start ">
+              <a href="#" class="p-3 px-6 pt-2 text-white bg-myFioletoviy rounded-full self-baseline hover:hover:scale-x-110 scale-y-110 transition-transform">
+                Начать
+              </a>
+            </div>
+          </div>
+    
+          <div class="md:w-1/2">
+            <img src="/src/img/kat4.jpg">
+          </div>
+    
+        </div>
+      </section>
+    <!-- hero end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
