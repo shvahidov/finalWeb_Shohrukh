@@ -3,15 +3,18 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      colors:{
-        myFioletoviy: '#9065B8',
-        myTemnoFioletoviy: '#5E4278',
-        mySvetloFioletoviy: '#AE7ADE',
-        myDarkfFoletoviy: '#2C1F38',
-        myVerySvetloFioletoviy: '#C288F7'
+      colors: {
+        brightRed: 'hsl(12, 88%, 59%)', 
+        brightLight: 'hsl(12, 88%, 69%)', 
+        brightRedLight: 'hsl(12, 88%, 79%)', 
+        brightRedSupLight: 'hsl(267, 45%, 62%)', 
+        darkBlue: 'hsl(228, 39%, 23%)', 
+        darkGrayishBlue: 'hsl(228, 12%, 61%)',
+        veryDarkBlue: 'hsl(228, 12%, 13%)',
+        veryPaleRed: 'hsl(13, 100%, 96%)',
+        veryLightGray: 'hsl(0, 0%, 98%)',
       }
     },
   },
   plugins: [],
-
 }
