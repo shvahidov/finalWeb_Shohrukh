@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -13,14 +14,14 @@
     <!-- Header container-->
     <header class="flex items-center justify-between">
       <!-- logo -->
-      <div class="pt-2">
-        <img src="img/" alt="">
+      <div>
+        <img src="img/logo.png" alt="" width="250px">
       </div>
       <!-- Menu items -->
       <div class="hidden space-x-6 md:flex ">
         <a href="#" class="hover:text-darkGrayishBlue">Главная</a>
-        <a href="#" class="hover:text-darkGrayishBlue">Продукты</a>
         <a href="#" class="hover:text-darkGrayishBlue">О нас</a>
+        <a href="#" class="hover:text-darkGrayishBlue">Продукты</a>
         <a href="#" class="hover:text-darkGrayishBlue">Контакты</a>
       </div>
       <!-- Button -->
@@ -43,10 +44,9 @@
       <div id="menu" class="absolute flex-col items-center hidden left-6 right-6 self-end py-8 mt-10 space-y-6 
       sm:w-auto font-bold bg-white sm:self-center drop-shadow-md ">
         <a href="#">Главная</a>
-        <a href="#">Продукты</a>
         <a href="#">О нас</a>
+        <a href="#">Продукты</a>
         <a href="#">Контакты</a>
-        <a href="#">Локация</a>
       </div>
     </div>
   </nav>
@@ -54,9 +54,9 @@
     <!-- Flex container -->
     <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row ">
       <!-- Left item -->
-      <div class="flex flex-col mb-32 space-y-12 md:w-1/2 ">
-        <h1 class="md:text-7xl font-bold sm:text-5xl">Mercury - напечатаем всё что угодно </h1>
-        <p class="text-xl text-gray-400 ">Настало время окунуться в мир где все покрыто красками и словами который
+      <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+        <h1 class="text-2xl font-bold  md:mb-6 lg:text-7xl">Mercury - напечатаем всё что угодно </h1>
+        <p class="text-xl text-gray-400">Настало время окунуться в мир где все покрыто красками и словами который
           передает твои мысли</p>
         <!-- Get started -->
         <div class="flex justify-center md:justify-start ">
@@ -75,138 +75,70 @@
   </section>
 
   <!-- Features -->
-  <section id="features">
-    <!-- Features container -->
-    <div class="container flex flex-col md:flex-row px-4 mx-auto mt-10 space-y-12 md:space-y-0 ">
-      <!-- Left colonka -->
-      <div class="flex flex-col space-y-12 md:w-1/2">
-        <h2 class="max-w-md text-center md:text-left text-4xl font-bold ">
-          Mercury - типографическая компания
-        </h2>
-        <p class="max-w-md text-center text-darkGrayishBlue md:text-left ">
-          Типографией называют определенную отрасль, которая занимается печатным делом. И наша компания одно из таких
-          одна из таких отраслей.
-        </p>
-        <img src="img/f2.jpg" alt="">
-      </div><!-- whats diferent -->
+  <section>
+    <div class="bg-white py-6 sm:py-8 lg:py-12">
+      <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <!-- text - start -->
+        <div class="mb-10 md:mb-16">
+          <h2 class="mb-4 text-center text-2xl font-bold  md:mb-6 lg:text-5xl">Mercury - типографическая компания</h2>
 
-      <!-- Numbered List -->
-      <div class="flex flex-col md:w-1/2 space-y-8">
-
-        <!-- List item 1 -->
-        <div class="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-6">
-          <!-- Heading -->
-          <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
-            <!-- 01 -->
-            <div class="flex items-center space-x-2">
-              <div class="px-4 py-2 text-white rounded-full md:py-1 bg-purple-500">
-                01
-              </div>
-              <!-- Оторажается только на мобтльной версии -->
-              <h3 class="text-lg font-bold md:mb-4 md:hidden">
-                Печать
-              </h3>
-            </div>
-          </div><!-- Head -->
-
-          <!-- text L1-->
-          <div class="">
-            <!-- Оторажается только на компьютерной версии -->
-            <h3 class="text-lg font-bold mb-4 hidden md:block">
-              Печать
-            </h3>
-            <p class="text-darkGrayishBlue">
-              Мы производим цветный и чёрно-белые печати каких только вы пожелаете. Ведь сегодняшее время мир полон
-              красок и яркых идей
-            </p>
-          </div>
+          <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">Типографией называют определенную
+            отрасль, которая занимается печатным делом. И наша компания одно из таких отраслей.</p>
         </div>
+        <!-- text - end -->
 
-        <div class="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-6">
-          <!-- Heading -->
-          <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
-            <!-- 01 -->
-            <div class="flex items-center space-x-2">
-              <div class="px-4 py-2 text-white rounded-full md:py-1 bg-purple-500">
-                02
-              </div>
-              <!-- Оторажается только на мобтльной версии -->
-              <h3 class="text-lg font-bold md:mb-4 md:hidden">
-                Книги
-              </h3>
-            </div>
-          </div><!-- Head -->
-
-          <!-- text L1-->
-          <div class="">
-            <!-- Оторажается только на компьютерной версии -->
-            <h3 class="text-lg font-bold mb-4 hidden md:block">
-              Книги
-            </h3>
-            <p class="text-darkGrayishBlue">
-              Куда же без книг. Наша производство производит любые книги от литературных книг или же для простого чтения
-              которое подходит и взрослым и детям
-            </p>
+        <div class="grid gap-4 sm:grid-cols-2 md:gap-8 xl:grid-cols-3">
+          <!-- feature - start -->
+          <div class="flex flex-col rounded-lg border p-4 md:p-6">
+            <h3 class="mb-2 text-lg font-semibold md:text-xl">Печать</h3>
+            <p class="mb-2 text-gray-500">Мы производим цветные и чёрно-белые печати каких только вы пожелаете. Ведь
+              сегодняшнее время мир полон красок и ярких идей</p>
           </div>
-        </div><!-- List item 2 -->
+          <!-- feature - end -->
 
-        <div class="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-6">
-          <!-- Heading -->
-          <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
-            <!-- 01 -->
-            <div class="flex items-center space-x-2">
-              <div class="px-4 py-2 text-white rounded-full md:py-1 bg-purple-500">
-                03
-              </div>
-              <!-- Оторажается только на мобтльной версии -->
-              <h3 class="text-lg font-bold md:mb-4 md:hidden">
-                Буклеты
-              </h3>
-            </div>
-          </div><!-- Head -->
-
-          <!-- text L1-->
-          <div class="">
-            <!-- Оторажается только на компьютерной версии -->
-            <h3 class="text-lg font-bold mb-4 hidden md:block">
-              Буклеты
-            </h3>
-            <p class="text-darkGrayishBlue">
-              Буклеты ещё одна вещ которая также мы производим. Вы можете заказать у нас буклеты на любые случаи жизны
-            </p>
+          <!-- feature - start -->
+          <div class="flex flex-col rounded-lg border p-4 md:p-6">
+            <h3 class="mb-2 text-lg font-semibold md:text-xl">Книги</h3>
+            <p class="mb-2 text-gray-500">Куда же без книг. Наша производство производит любые книги от литературных
+              книг или же для простого чтения которое подходит и взрослым и детям</p>
           </div>
-        </div><!-- List item 3 -->
+          <!-- feature - end -->
 
-        <div class="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-6">
-          <!-- Heading -->
-          <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
-            <!-- 01 -->
-            <div class="flex items-center space-x-2">
-              <div class="px-4 py-2 text-white rounded-full md:py-1 bg-purple-500">
-                04
-              </div>
-              <!-- Оторажается только на мобтльной версии -->
-              <h3 class="text-lg font-bold md:mb-4 md:hidden">
-                Визитки
-              </h3>
-            </div>
-          </div><!-- Head -->
-
-          <!-- text L1-->
-          <div class="">
-            <!-- Оторажается только на компьютерной версии -->
-            <h3 class="text-lg font-bold mb-4 hidden md:block">
-              Визитки
-            </h3>
-            <p class="text-darkGrayishBlue">
-              Так же мы производим вызитки для компаний, ресторанов или же для людей. Если будут нужны вызитки вы
-              помоему уже знаете к кому обращаться
-            </p>
+          <!-- feature - start -->
+          <div class="flex flex-col rounded-lg border p-4 md:p-6">
+            <h3 class="mb-2 text-lg font-semibold md:text-xl">Буклеты</h3>
+            <p class="mb-2 text-gray-500">Буклеты ещё одна вещ которая также мы производим. Вы можете заказать у нас
+              буклеты на любые случаи жизни</p>
           </div>
-        </div><!-- List item 4 -->
+          <!-- feature - end -->
 
-      </div><!-- Numbered List22 -->
-    </div> <!-- Features -->
+          <!-- feature - start -->
+          <div class="flex flex-col rounded-lg border p-4 md:p-6">
+            <h3 class="mb-2 text-lg font-semibold md:text-xl">Визитки</h3>
+            <p class="mb-2 text-gray-500">Также мы производим визитки для компаний, ресторанов или же для людей. Если
+              будут нужны визитки вы по моему уже знаете к кому обращаться</p>
+          </div>
+          <!-- feature - end -->
+
+          <!-- feature - start -->
+          <div class="flex flex-col rounded-lg border p-4 md:p-6">
+            <h3 class="mb-2 text-lg font-semibold md:text-xl">Реклама</h3>
+            <p class="mb-2 text-gray-500">Хотите чтобы о вас узнали? - тогда дай о себе знать то есть сделай так чтобы
+              все тебя узнали. Мы тебе поможем с этим ведь наша компания поможет красочно заявить о тебе </p>
+
+          </div>
+          <!-- feature - end -->
+
+          <!-- feature - start -->
+          <div class="flex flex-col rounded-lg border p-4 md:p-6">
+            <h3 class="mb-2 text-lg font-semibold md:text-xl">Продуктивность</h3>
+            <p class="mb-4 text-gray-500">Доверяя нам заказы мы будем делать их с высоким качеством и без опозданий в
+              нужные сроки</p>
+          </div>
+          <!-- feature - end -->
+        </div>
+      </div>
+    </div>
   </section>
 
   <section>
@@ -228,8 +160,7 @@
 
             <div class="flex flex-1 flex-col p-4 sm:p-6">
               <h2 class="mb-2 text-lg font-semibold text-gray-800">
-                <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">Рекламная
-                  полиграфия</a>
+                <a href="#">Рекламная полиграфия</a>
               </h2>
 
               <p class="mb-8 text-gray-500">Бланки, блокноты, брошюры, буклеты, визитки, грамоты, дипломы, календари,
@@ -247,8 +178,7 @@
 
             <div class="flex flex-1 flex-col p-4 sm:p-6">
               <h2 class="mb-2 text-lg font-semibold text-gray-800">
-                <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">Широкоформатная
-                  полиграфия</a>
+                <a href="#">Широкоформатная полиграфия</a>
               </h2>
 
               <p class="mb-8 text-gray-500">Печать плакатов и постеров Рекламные конструкции <br> Печать на litebox <br>
@@ -266,8 +196,7 @@
 
             <div class="flex flex-1 flex-col p-4 sm:p-6">
               <h2 class="mb-2 text-lg font-semibold text-gray-800">
-                <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">Сувенирная
-                  полиграфия</a>
+                <a href="#">Сувенирная полиграфия</a>
               </h2>
 
               <p class="mb-8 text-gray-500">
@@ -290,8 +219,7 @@
 
             <div class="flex flex-1 flex-col p-4 sm:p-6">
               <h2 class="mb-2 text-lg font-semibold text-gray-800">
-                <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">Полиграфия для
-                  ресторанов</a>
+                <a href="#">Полиграфия для ресторанов</a>
               </h2>
 
               <p class="mb-8 text-gray-500">Подставки под напитки <br> Печать меню <br> Карты лояльности <br> Тейблент
@@ -311,8 +239,7 @@
         <div class="flex flex-col items-center border-t pt-6">
           <!-- nav - start -->
           <nav class="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
-            <a href="#"
-              class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Контакты</a>
+            <a href="#" class="text-gray-500 transition ">Контакты</a>
           </nav>
           <!-- nav - end -->
 
@@ -322,16 +249,16 @@
               <img src="img/instagram.png" height="25px" width="25px">
             </a>
 
-            <a href="#" target="_blank"></a>
-            <img src="img/telegram.png" height="25px" width="25px">
-            </a>
-
-            <a href="#" target="_blank"></a>
-            <img src="img/whatsapp.png" height="25px" width="25px">
+            <a href="#" target="_blank">
+              <img src="img/telegram.png" height="25px" width="25px">
             </a>
 
             <a href="#" target="_blank">
-              
+              <img src="img/whatsapp.png" height="25px" width="25px">
+            </a>
+
+            <a href="#" target="_blank">
+              <img src="img/pochta.png" height="25px" width="25px">
             </a>
           </div>
           <!-- social - end -->
@@ -341,9 +268,40 @@
       </footer>
     </div>
   </footer>
+  <!-- feature -->
+  <section id="feature">
+    <!-- секция с картинками -->
+    <div class="grid grid-cols-1 md:grid-cols-2 ml-10 mr-10">
+      <div id="left part">
+        <!-- слева фото -->
+        <img src="img/printer.webp" alt="" height="550px" width="650px" class="mb-10">
+      </div>
 
+      <div id="right-part">
+        <p class="text-3xl">Тут описания картинки распаложенная с права</p>
+        <p class="pt-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nesciunt illo ipsa natus quod ut nostrum facilis doloremque, aliquid iusto temporibus repellendus suscipit explicabo voluptatibus itaque maiores! Quis voluptatibus consequuntur eius magnam itaque nihil adipisci officia omnis maiores fuga nobis laudantium aliquid porro officiis repellat mollitia repellendus esse, doloremque molestias?</p>
+        <img src="img/printer2.jpg" alt="" height="450px" width="750px" class="mt-10 mb-10">
+      </div>
+    </div>
 
+    <!-- секция с текстом и видео -->
+    <div class="grid grid-cols-1 md:grid-cols-2 ml-10 mr-10">
+      <div id="opisaniya">
+        <p class="text-3xl">Тут описание. Описание слева видео справа</p>
+        <p class="pt-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione fugit ut ipsam fugiat excepturi iusto quaerat, iure hic ducimus odit placeat quasi vel adipisci sunt omnis facilis repudiandae ipsa cumque reiciendis quod veritatis. Quod earum illum quam pariatur aliquam. Ducimus, consectetur necessitatibus. Eveniet consectetur nesciunt, obcaecati minus illo consequuntur provident?</p>
+      </div>
 
+      <div id="video-container" class="mt-10 ml-8">
+        <!-- Тут будет видео с кнопкой -->
+        <video controls src="video/Все виды полиграфии.mp4" id="my-video" width="350px"></video>
+
+        <button id="play-button"></button>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="scriptvideo.js"></script>
   <script src="script.js"></script>
 </body>
 
