@@ -8,7 +8,7 @@ function watching(){
         playButton.style.opacity = "0.1";
     }
     else if(controls = 1){
-        video.pause();
+        video.onpause();
         controls = 0;
         playButton.style.opacity = "1";
     }

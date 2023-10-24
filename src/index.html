@@ -14,8 +14,8 @@
     <!-- Header container-->
     <header class="flex items-center justify-between">
       <!-- logo -->
-      <div>
-        <img src="img/logo.png" alt="" width="250px">
+      <div class="pt-2">
+
       </div>
       <!-- Menu items -->
       <div class="hidden space-x-6 md:flex ">
@@ -44,9 +44,10 @@
       <div id="menu" class="absolute flex-col items-center hidden left-6 right-6 self-end py-8 mt-10 space-y-6 
       sm:w-auto font-bold bg-white sm:self-center drop-shadow-md ">
         <a href="#">Главная</a>
-        <a href="#">О нас</a>
         <a href="#">Продукты</a>
+        <a href="#">О нас</a>
         <a href="#">Контакты</a>
+        <a href="#">Локация</a>
       </div>
     </div>
   </nav>
@@ -56,7 +57,7 @@
       <!-- Left item -->
       <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
         <h1 class="text-2xl font-bold  md:mb-6 lg:text-7xl">Mercury - напечатаем всё что угодно </h1>
-        <p class="text-xl text-gray-400">Настало время окунуться в мир где все покрыто красками и словами который
+        <p class="text-xl text-gray-400 ">Настало время окунуться в мир где все покрыто красками и словами который
           передает твои мысли</p>
         <!-- Get started -->
         <div class="flex justify-center md:justify-start ">
@@ -75,7 +76,7 @@
   </section>
 
   <!-- Features -->
-  <section>
+  <section id="blocks">
     <div class="bg-white py-6 sm:py-8 lg:py-12">
       <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
         <!-- text - start -->
@@ -141,7 +142,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="product">
     <div class="bg-white py-6 sm:py-8 lg:py-12">
       <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
         <!-- text - start -->
@@ -233,6 +234,50 @@
     </div>
   </section>
 
+  <section id="cta">
+    <div class="flex justify-center items-center">
+      <div class="w-2/4">
+        <h1 class="font-bold text-2xl pb-4">Какие ваши предпочтения</h1>
+        <p>
+          Если у вас есть какое конкретное пожилание для своих товаров не боитесь смело напишите нам. Мы поможем вам с этим выбором.
+        </p>
+      </div>
+      <div class="w-1/5">
+        <button class="p-3 px-6 pt-2 text-white bg-black rounded-full self-baseline hover:hover:scale-x-110 scale-y-110 transition-transform ml-10">Написать</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <div class="grid gap-3 sm:grid-cols-2 md:gap-8 xl:grid-cols-4 ml-10 mr-10 ">
+      <div>
+        <img src="img/g1ljiszo4qhthfpluzbt.webp" alt="" width="350px" class="mb-8">
+        <p class="font-bold text-xl text-center">Andry Ford</p>
+        <p class=" text-gray-500 text-center">CEO at Whatever</p>
+      </div>
+
+      <div>
+        <img src="img/g1ljiszo4qhthfpluzbt.webp" alt="" width="350px" class="mb-8">
+        <p class="font-bold text-xl text-center">Andry Ford</p>
+        <p class=" text-gray-500 text-center">CEO at Whatever</p>
+      </div>  
+
+      <div>
+        <img src="img/g1ljiszo4qhthfpluzbt.webp" alt="" width="350px" class="mb-8">
+        <p class="font-bold text-xl text-center">Andry Ford</p>
+        <p class=" text-gray-500 text-center">CEO at Whatever</p>
+      </div>
+
+      <div>
+        <img src="img/g1ljiszo4qhthfpluzbt.webp" alt="" width="350px" class="mb-8">
+        <p class="font-bold text-xl text-center">Andry Ford</p>
+        <p class=" text-gray-500 text-center">CEO at Whatever</p>
+      </div>
+    </div>
+
+    
+  </section>
+
   <footer>
     <div class="bg-white pt-4 sm:pt-10 lg:pt-12">
       <footer class="mx-auto max-w-screen-2xl px-4 md:px-8">
@@ -268,38 +313,11 @@
       </footer>
     </div>
   </footer>
-  <!-- feature -->
-  <section id="feature">
-    <!-- секция с картинками -->
-    <div class="grid grid-cols-1 md:grid-cols-2 ml-10 mr-10">
-      <div id="left part">
-        <!-- слева фото -->
-        <img src="img/printer.webp" alt="" height="550px" width="650px" class="mb-10">
-      </div>
 
-      <div id="right-part">
-        <p class="text-3xl">Тут описания картинки распаложенная с права</p>
-        <p class="pt-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nesciunt illo ipsa natus quod ut nostrum facilis doloremque, aliquid iusto temporibus repellendus suscipit explicabo voluptatibus itaque maiores! Quis voluptatibus consequuntur eius magnam itaque nihil adipisci officia omnis maiores fuga nobis laudantium aliquid porro officiis repellat mollitia repellendus esse, doloremque molestias?</p>
-        <img src="img/printer2.jpg" alt="" height="450px" width="750px" class="mt-10 mb-10">
-      </div>
-    </div>
 
-    <!-- секция с текстом и видео -->
-    <div class="grid grid-cols-1 md:grid-cols-2 ml-10 mr-10">
-      <div id="opisaniya">
-        <p class="text-3xl">Тут описание. Описание слева видео справа</p>
-        <p class="pt-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione fugit ut ipsam fugiat excepturi iusto quaerat, iure hic ducimus odit placeat quasi vel adipisci sunt omnis facilis repudiandae ipsa cumque reiciendis quod veritatis. Quod earum illum quam pariatur aliquam. Ducimus, consectetur necessitatibus. Eveniet consectetur nesciunt, obcaecati minus illo consequuntur provident?</p>
-      </div>
 
-      <div id="video-container" class="mt-10 ml-8">
-        <!-- Тут будет видео с кнопкой -->
-        <video controls src="video/Все виды полиграфии.mp4" id="my-video" width="350px"></video>
 
-        <button id="play-button"></button>
-      </div>
-    </div>
 
-  </section>
 
   <script src="scriptvideo.js"></script>
   <script src="script.js"></script>
